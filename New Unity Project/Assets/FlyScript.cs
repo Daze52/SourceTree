@@ -15,7 +15,7 @@ public class FlyScript : MonoBehaviour
 
 			FlyAway();
 		}
-		else if(transform.position.y >= heightTest)
+		else if(transform.position.y > heightTest)
 		{
 			Debug.Log("I'm flying!");
 		}
