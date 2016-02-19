@@ -47,12 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Conventions and syntax.cs" />
-     <Compile Include="Assets\DoWhileLoops.cs" />
      <Compile Include="Assets\FlyScript.cs" />
-     <Compile Include="Assets\ForEachLoops.cs" />
-     <Compile Include="Assets\ForLoops.cs" />
-     <Compile Include="Assets\If statements.cs" />
-     <Compile Include="Assets\WhileLoops.cs" />
      <Compile Include="Assets\ok.cs" />
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>

@@ -1,11 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/WhileLoops.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/FlyScript.cs">
     <Files>
-      <File FileName="Assets/WhileLoops.cs" Line="13" Column="37" />
-      <File FileName="Assets/DoWhileLoops.cs" Line="27" Column="2" />
-      <File FileName="Assets/ForLoops.cs" Line="19" Column="2" />
-      <File FileName="Assets/ForEachLoops.cs" Line="22" Column="2" />
+      <File FileName="Assets/FlyScript.cs" Line="33" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
