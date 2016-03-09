@@ -1,0 +1,42 @@
+newmtl CircleSG
+illum 4
+Kd 0.62 0.36 0.18
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CircleSG1
+illum 4
+Kd 0.79 0.59 0.45
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl Circle_002SG2
+illum 4
+Kd 0.45 0.01 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl CubeSG
+illum 4
+Kd 0.57 0.46 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl PlaneSG
+illum 4
+Kd 0.17 0.56 0.05
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert10SG
+illum 4
+Kd 0.26 0.15 0.08
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+newmtl lambert11SG
+illum 4
+Kd 0.77 0.69 0.56
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
