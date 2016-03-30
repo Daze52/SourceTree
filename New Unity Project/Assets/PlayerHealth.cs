@@ -28,12 +28,24 @@ public class PlayerHealth : MonoBehaviour {
 	{
 		if (hit.transform.tag == "enemy") 
 		{
-
+			health = damagefunction(health);
+			healthtext.text = health.ToString();
 		}
 		else if (hit.transform.tag == "killzone") 
 		{
-
+			Application.LoadLevel(0);
 		}
+	}
+
+	int damagefunction(int qwerty)
+	{
+		int newhealth;
+		newhealth = qwerty - damage;
+		if (newhealth <= 0)
+		{
+			Application.LoadLevel(0);
+		}
+		return newhealth;
 	}
 	/*
      * The OnCollisionEnter function, void return type, parameter: Collision
