@@ -16,7 +16,7 @@ public class EnemySpawner : MonoBehaviour {
      */
 	void Start()
 	{
-		delay = 5;
+		delay = 3;
 		InvokeRepeating("spawn", 0, delay);
 	}
 	/*
@@ -31,11 +31,15 @@ public class EnemySpawner : MonoBehaviour {
 	void spawn()
 	{
 		int qwerty = 0;
+
 		while (qwerty < spawner.Length) 
 		{
 			Vector3 newpos = gameObject.transform.position;
-			newpos.x += qwerty;
+
+			newpos.x += qwerty * 20;
+
 			Instantiate(spawner[qwerty], newpos, Quaternion.identity);
+
 			qwerty++;
 		}
 	}

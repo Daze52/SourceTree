@@ -70,6 +70,9 @@
 -define:UNITY_EDITOR_OSX
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+'Assets/EnemyDamage.cs'
+'Assets/EnemyMovement.cs'
+'Assets/EnemySpawner.cs'
 'Assets/EnemyTimer.cs'
 'Assets/New Folder/DoWhileLoops.cs'
 'Assets/New Folder/FlyScript.cs'
@@ -80,7 +83,6 @@
 'Assets/New Folder/ScopeAndAccessMod2.cs'
 'Assets/New Folder/WhileLoops.cs'
 'Assets/New Folder/ok.cs'
-'Assets/NewBehaviourScript.cs'
 'Assets/PlayerControl.cs'
 'Assets/PlayerHealth.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

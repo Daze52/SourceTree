@@ -6,7 +6,7 @@ public class EnemyTimer : MonoBehaviour {
      * Variables:
      * A public float for the amount of time
      */
-	public float time = 10;
+	public float time = 9;
 	/*
      * The Update function, void return type, no parameters
      *      Call the check timer function
