@@ -47,6 +47,7 @@ public class PlayerHealth : MonoBehaviour {
 		}
 		return newhealth;
 	}
+	
 	/*
      * The OnCollisionEnter function, void return type, parameter: Collision
      *      If (tag of the Collision parameter equals the enemy tag) 
