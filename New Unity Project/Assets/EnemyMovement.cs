@@ -23,7 +23,18 @@ public class EnemyMovement : MonoBehaviour {
 			
 			transform.eulerAngles = direction;
 		}
-
+		else if (damagereference.enemytype == EnemyDamage.num.burger) 
+		{
+			direction = new Vector3 (0, Random.Range (0, 360), 0);
+			
+			transform.eulerAngles = direction;
+		}
+		else if (damagereference.enemytype == EnemyDamage.num.fries) 
+		{
+			direction = new Vector3 (0, Random.Range (0, 360), 0);
+			
+			transform.eulerAngles = direction;
+		}
 	}
 
 	void Update()

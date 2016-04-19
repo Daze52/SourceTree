@@ -23,12 +23,12 @@ public class PlayerControl : MonoBehaviour {
 			transform.Rotate(new Vector3(0, -rotationspeed, 0));
 		}
 
-		else if (Input.GetKey (KeyCode.RightArrow)) 
+		if (Input.GetKey (KeyCode.RightArrow)) 
 		{
 			transform.Rotate(new Vector3(0, rotationspeed, 0));
 		}
 
-		else if (Input.GetKey (KeyCode.UpArrow)) 
+		if (Input.GetKey (KeyCode.UpArrow)) 
 		{
 			rigid.AddRelativeForce(0, 0, movementspeed);
 		}
@@ -38,9 +38,9 @@ public class PlayerControl : MonoBehaviour {
 			rigid.AddRelativeForce(0, 0, -movementspeed);
 		}
 		
-		/**/else if (Input.GetKeyDown(KeyCode.Space))
+		/**/if (Input.GetKeyDown(KeyCode.Space))
 		/**/{
-		/**/	Instantiate(bulletreference, transform.position, transform.rotation);
+			/**/	Instantiate(bulletreference, new Vector3(transform.position.x, transform.position.y + 15, transform.position.z) , transform.rotation);
 		/**/}
 	}
 }

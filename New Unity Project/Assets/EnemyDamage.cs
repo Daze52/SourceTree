@@ -9,7 +9,7 @@ public class EnemyDamage : MonoBehaviour
 	public num enemytype;
 	public int enemyhealth = 15;
 
-	void damage(int damageamount)
+	public void damage(int damageamount)
 	{
 		enemyhealth -= damageamount;
 
@@ -27,7 +27,7 @@ public class EnemyDamage : MonoBehaviour
 			Destroy (gameObject);
 
 		} 
-		else if (hit.transform.tag == "bullet") 
+		else if (hit.transform.tag == "Bullet") 
 		{
 			switch (enemytype)
 			{
