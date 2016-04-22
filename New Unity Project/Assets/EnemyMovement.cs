@@ -6,14 +6,11 @@ public class EnemyMovement : MonoBehaviour {
 	Rigidbody RB;
 	public float enemyspeed = 50;
 	Vector3 direction;
-	GameObject reference;
 	EnemyDamage damagereference;
 
 	void Start()
 	{
 		RB = GetComponent<Rigidbody> ();
-
-		reference = GameObject.FindGameObjectWithTag ("Player");
 
 		damagereference = GetComponent<EnemyDamage> ();
 
