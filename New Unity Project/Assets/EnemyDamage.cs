@@ -48,6 +48,12 @@ public class EnemyDamage : MonoBehaviour
 				damage(15);
 				
 				break;
+				
+				default:
+			
+				print ("Unrecognized enemy type.");
+			
+				break;
 			}
 		}
 	}
