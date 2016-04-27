@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Enumerations : MonoBehaviour 
 {
-	enum Direction {Up, Down, Left, Right}
+	enum Direction {Up, Down, Left, Right};
 	
 	void Start () 
 	{
