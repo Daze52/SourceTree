@@ -52,6 +52,7 @@
      <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\EnemyTimer.cs" />
      <Compile Include="Assets\New Folder\Arrays.cs" />
+     <Compile Include="Assets\New Folder\DataTypes.cs" />
      <Compile Include="Assets\New Folder\DoWhileLoops.cs" />
      <Compile Include="Assets\New Folder\Enumerations.cs" />
      <Compile Include="Assets\New Folder\FlyScript.cs" />
